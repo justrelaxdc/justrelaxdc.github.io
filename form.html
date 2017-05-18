@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Форма</title>
+<link href="css/form.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div class="form">
+
+<form action="formdata.php" method="POST" name="form1">
+<fieldset>
+	<legend><span id="userInform">Ввод личных данных</span></legend>
+	<p><label for="name"><span id="nameInput">Введите Ваше имя:</span></label></p>
+	<p><input type="text" name="name" id="name" maxlength="10"  ></p>
+	<p><label for="password"><span id="passwordInput">Введите Ваш пароль:</span></label></p>
+	<p><input type="password" name="password" id="password" maxlength="10" ></p>
+</fieldset>
+<fieldset>
+	<legend><span id="questions">Вопросы</span></legend>
+	<p>Любите ли Вы экономить время?</p>
+	<p><input type="radio" name="time" id="yes" value="Да" checked>
+	<label for="yes" class="yes">Да</label></p>
+	<p><input type="radio" name="time" id="no" value="Нет">
+	<label for="no" class="no">Нет</label></p>
+	<p>Какими инструментами для экономии времени вы любите пользоваться?</p>
+<p>
+	<input type="checkbox" name="ez" class="ez" id="ez" value="Eжедневник"></input>
+	<label for="ez" id="ez">Ежедневник</label>
+	<input type="checkbox" name="hr" class="hr" id="hr" value="Хронометраж"></input>
+	<label for="hr">Хронометраж</label>
+	<input type="checkbox" name="sv" class="sv" id="sv" value="Свои наработки"></input>
+	<label for="sv">Свои наработки</label>
+</p>
+
+<p><label for="sleep">Сколько часов в день вы спите?</label></p>
+
+<p>
+<select name="sleep" id="sleep"> 
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option selected>8</option>
+<option>8+</option>
+</select>
+</p>
+</fieldset>
+<p><label for="text" ><span id="nar">Поделитесь своими наработками в экономии времени</span></label></p>
+<p><textarea  name="text" cols="50" rows="6" id="text" placeholder="Введите текст"></textarea></p>
+<p><input type="reset" name="reset" id="reset" value="Сброс"><input type="submit" name="submit" id="submit "value="Отправить"></p>
+
+
+</form>
+
+</div>
+
+</body>
+</html>

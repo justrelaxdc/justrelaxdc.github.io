@@ -1,0 +1,46 @@
+body {
+background-color:#D2D2D2;	
+color:696969;
+font:11px Verdana;
+}
+
+#wrapper {
+	width:650px;
+	margin:30px auto;	
+	background-color:#F4F4F4;
+}
+
+#header {
+	height:75px;
+	background-image:url(../images/redHeader.png);
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+#content {
+	padding:20px 30px;
+}
+
+#new {
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+#button {
+	position:absolute;
+	left:294px;
+	top:-14px;
+}
+
+#operator {
+	position:fixed;
+	width:22px;
+	height:180px;
+	top:250px;
+	left:0;
+}
+
+#operator img {
+	border:none;		
+}

@@ -1,0 +1,44 @@
+#wrapper {
+	width:800px;
+	outline:1px solid #cccccc;
+	padding:10px;
+	margin:0 auto;	
+}
+
+#header {
+	height:77px;
+	background-color:#FFAB14;
+	margin-bottom:12px;	
+}
+
+#sidebarL {
+	background-color:#EBEBE9;
+	margin-bottom:12px;	
+	width:150px;
+	float:left;
+}
+
+#sidebarR {
+	background-color:#EBEBE9;
+	margin-bottom:12px;		
+	width:150px;
+	float:right;
+}
+
+#content {
+	background-color:#FFAB14;
+	margin:0 160px 12px 160px;
+	background-color:#D4281B;
+	width:480px;
+}
+
+#footer {
+	height:77px;
+	background-color:#FFAB14;
+	margin-bottom:12px;	
+	background-color:#000000;
+}
+
+.clear {
+clear:both; 	
+}

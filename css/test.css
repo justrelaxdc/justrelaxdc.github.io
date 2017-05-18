@@ -1,0 +1,17 @@
+body {
+background-image: url(batthern.png);
+}
+
+.Form {
+margin:120px auto;
+position:auto;
+height:421px;
+width:800px;
+background-image: url(/images/2.jpg);
+color:white;
+text-align:center;
+}
+
+#Caption {
+padding:150px;
+}

@@ -1,0 +1,48 @@
+p, h4, #myList {
+color:gray;
+}
+
+p {
+font-family:"Courier New";
+text-indent:30px;	
+line-height:1.5;
+}	
+
+#header {
+color:red;
+text-align:center;
+border-width:2px;
+border-style:solid;
+border-color:#DAA21A;
+}
+
+.new {
+color:#D69F9B;	
+font:italic bold 16px Tahoma;
+}
+
+ul li {
+color:red;	
+}
+
+.new2 {
+font-style:italic;	
+}
+
+.new3 {
+font-weight:bold;
+text-decoration:line-through;	
+}
+
+a {
+text-decoration:none;	
+}
+
+#Opis {
+text-decoration:underline;	
+}
+
+.new4 {
+text-align:justify;	
+}
+
