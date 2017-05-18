@@ -1,6 +1,8 @@
-<?php
-
-$result = mail("justrelaxdc@gmail.com","Анкета сайта","С сайта была получена анкета с такими данными: \n Имя: $_POST[name]\n Пароль: $_POST[password]\n Любит ли экономить время?: $_POST[time]\n Какими инструментами для экономии времени пользуется:\n $_POST[ez]\n $_POST[hr]\n $_POST[sv] \nСколько часов в день спит: $_POST[sleep] часов\n Свои наработки в экономии времени: $_POST[text]");
+<?php 
+$result = mail("jusrelaxdc@gmail.com", "rossomakha20000@gmail.com", $message, 
+     "From: webmaster@ example.com \r\n" 
+    ."X-Mailer: PHP/" . phpversion()); 
+?> 
 
 if ($result) {
 echo "<p>Сообщение отправлено успешно!</p>";
